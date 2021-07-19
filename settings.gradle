@@ -1,0 +1,3 @@
+rootProject.name = "MyConducorTool"
+include ':app',':drawable'
+project(':drawable').projectDir = new File(settingsDir,'../../MyConductor/app/src/main/res/drawable/twobeat')
